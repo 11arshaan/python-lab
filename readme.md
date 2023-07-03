@@ -1,0 +1,1 @@
+A collection of python experiments exploring AI, generative art, and web connections.
