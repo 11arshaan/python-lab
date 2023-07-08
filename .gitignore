@@ -1,2 +1,17 @@
-.venv
-.idea
+# .gitignore
+
+# Ignore the virtual environment directory
+.venv/
+
+# Ignore the PyCharm (or other JetBrains IDEs) settings directory
+.idea/
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# If you're using Jupyter notebooks
+.ipynb_checkpoints/
+
+# If you're using macOS
+.DS_Store
