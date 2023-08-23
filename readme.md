@@ -1,1 +1,8 @@
-A collection of python experiments exploring AI, generative art, and web connections.
+# Python Lab
+
+//create a readme for GitHub
+
+## Description
+
+Exploring python, ML, data science, and more.
+

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../code-library/Python/.idea/Python.iml" filepath="$PROJECT_DIR$/../../code-library/Python/.idea/Python.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python-lab.iml" filepath="$PROJECT_DIR$/.idea/python-lab.iml" />
     </modules>
   </component>
