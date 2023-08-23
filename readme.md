@@ -1,6 +1,5 @@
 # Python Lab
 
-//create a readme for GitHub
 
 ## Description
 
