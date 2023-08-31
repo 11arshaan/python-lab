@@ -18,3 +18,5 @@ __pycache__/
 
 # for assets
 _assets
+
+.env
