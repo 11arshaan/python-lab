@@ -1,6 +1,7 @@
 import requests
 import os
 from dotenv import load_dotenv
+from datetime import datetime
 
 load_dotenv()
 
@@ -8,7 +9,6 @@ app_id = os.getenv("APP_ID")
 app_key = os.getenv("APP_KEY")
 sheety_url = os.getenv("SHEETY_URL")
 token = os.getenv("TOKEN")
-from datetime import datetime
 
 now = datetime.now()
 date = now.strftime("%d/%m/%Y")
