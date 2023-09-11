@@ -1,7 +1,7 @@
 # .gitignore
 
 # Ignore the virtual environment directory
-.venv/
+venv/
 
 # Ignore the PyCharm (or other JetBrains IDEs) settings directory
 .idea/
