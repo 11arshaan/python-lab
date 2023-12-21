@@ -26,8 +26,8 @@ print(all_headings)
 ##############
 # from website
 ##############
-response = requests.get("https://news.ycombinator.com/")
-webpage = response.text
+# response = requests.get("https://news.ycombinator.com/")
+# webpage = response.text
 
-soup = BeautifulSoup(webpage, "html.parser")
-print(soup.title)
+# soup = BeautifulSoup(webpage, "html.parser")
+# print(soup.title)
