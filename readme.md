@@ -1,5 +1,10 @@
 # Python Lab
 
+create and activate venv
+
+
+then install packages in venv
+`pip install -r requirements.txt`
 
 ## Description
 
