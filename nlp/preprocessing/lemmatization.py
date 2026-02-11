@@ -11,7 +11,7 @@ from nltk.tag import pos_tag
 # Download required NLTK data
 nltk.download('wordnet', quiet=True)
 nltk.download('omw-1.4', quiet=True)
-nltk.download('averaged_perceptron_tagger', quiet=True)
+nltk.download('averaged_perceptron_tagger_eng', quiet=True)
 
 
 # Helper function to convert nltk pos tags to wordnet pos tags
