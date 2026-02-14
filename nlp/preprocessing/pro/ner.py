@@ -2,8 +2,8 @@
 Named Entity Recognition functions using spaCy.
 """
 
-import spacy
 from spacy import displacy
+from spacy.glossary import explain
 
 from ._model import get_nlp
 
@@ -46,7 +46,7 @@ def extract_entities_detailed(text: str) -> list[dict]:
             "label": ent.label_,
             "start_char": ent.start_char,
             "end_char": ent.end_char,
-            "description": spacy.explain(ent.label_),
+            "description": explain(ent.label_),
         }
         for ent in doc.ents
     ]
